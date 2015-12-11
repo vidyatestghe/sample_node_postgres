@@ -27,3 +27,6 @@ after_script:
 build_image: drydock/u14nodpls:tip 
 
 archive: true
+
+services:
+  - postgres
